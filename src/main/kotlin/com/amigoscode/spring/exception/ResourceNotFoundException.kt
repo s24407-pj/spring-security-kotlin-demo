@@ -1,4 +1,3 @@
 package com.amigoscode.spring.exception
 
-class ResourceNotFoundException {
-}
+class ResourceNotFoundException(message: String) : RuntimeException(message)
